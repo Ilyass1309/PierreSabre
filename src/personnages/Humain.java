@@ -20,7 +20,7 @@ public class Humain {
 		return argent;
 	}
 	
-	protected void parler(String texte) {
+	public void parler(String texte) {
 		System.out.println("(" + getNom() + ")" + "- " + texte);
 	}
 	
