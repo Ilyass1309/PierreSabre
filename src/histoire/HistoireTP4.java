@@ -22,16 +22,19 @@ public class HistoireTP4 {
 //		marco.recevoir(15);
 //		marco.boire();
 		
-		Yakuza yakuza = new Yakuza("Yaku Le Noir", "whisky", 30, "Warsong");
+		Yakuza yakuza = new Yakuza("Yaku Le Noir", "whisky", 45, "Warsong");
 //		yakuza.direBonjour();
 //		yakuza.parler("Tiens, tiens, ne serait-ce pas un faible marchand qui passe par là ?");
 //		yakuza.parler( marco.getNom() +", si tu tiens à la vie donne moi ta bourse !");
 //		yakuza.extorquer(marco);
 		
 		
-		Ronin ronin = new Ronin("Roro", "shochu", 60);
-		ronin.direBonjour();
-		ronin.donner(marco);
+		Ronin ronin = new Ronin("Roro", "shochu", 54);
+//		ronin.direBonjour();
+//		ronin.donner(marco);
+		
+		ronin.parler("Je t'ai retrouvé vermine, tu vas payer pour ce que tu as fait à ce pauvre marchand!");
+		ronin.provoquer(yakuza);
 	}
 }
 
